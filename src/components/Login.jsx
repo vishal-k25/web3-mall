@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { logInWithEmailAndPassword } from '../firebase'
 import { loginWithCometChat } from '../cometChat'
 import { setAlert } from '../store'
-import Button from '@material-tailwind/react/Button'
+import { Button } from '@material-tailwind/react'
 
 const Login = () => {
   const [email, setEmail] = useState('')

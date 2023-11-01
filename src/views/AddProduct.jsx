@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { addProduct } from '../firebase'
 import { setAlert } from '../store'
 import { useGlobalState } from '../store'
-import Button from '@material-tailwind/react/Button'
+import Button from '@material-tailwind/react'
 import Header from '../components/Header'
 
 const AddProduct = () => {

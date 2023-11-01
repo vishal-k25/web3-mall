@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Card from '@material-tailwind/react/Card'
-import CardStatusFooter from '@material-tailwind/react/CardStatusFooter'
+import Card from '@material-tailwind/react'
+import CardStatusFooter from '@material-tailwind/react'
 import { Link } from 'react-router-dom'
 import { Image, Button } from '@material-tailwind/react'
 import { setGlobalState, useGlobalState } from '../store'

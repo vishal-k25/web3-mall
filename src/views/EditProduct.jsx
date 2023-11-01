@@ -1,5 +1,5 @@
 import Header from '../components/Header'
-import Button from '@material-tailwind/react/Button'
+import Button from '@material-tailwind/react'
 import { useEffect, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { updateProduct, getProduct, auth } from '../firebase'
